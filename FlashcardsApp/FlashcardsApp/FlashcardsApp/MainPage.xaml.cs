@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Microsoft.Azure.Cosmos;
+
 
 namespace FlashcardsApp
 {
@@ -17,5 +19,7 @@ namespace FlashcardsApp
         {
             InitializeComponent();
         }
+
+        
     }
 }
