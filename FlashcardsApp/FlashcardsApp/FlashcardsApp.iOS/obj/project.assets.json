@@ -6965,24 +6965,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Casey\\.nuget\\packages\\": {},
-    "F:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\C-bre\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\FlashcardsApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\FlashcardsApp.iOS.csproj",
       "projectName": "FlashcardsApp.iOS",
-      "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\FlashcardsApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Casey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\FlashcardsApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "F:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Casey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\C-bre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6996,8 +6996,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
-              "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
+            "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
+              "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
             }
           }
         }

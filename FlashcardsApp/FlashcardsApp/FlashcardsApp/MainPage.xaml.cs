@@ -18,8 +18,15 @@ namespace FlashcardsApp
         public MainPage()
         {
             InitializeComponent();
+
+            page1Button.Clicked += NextPageButton_Clicked;
         }
 
+        private async void NextPageButton_Clicked(object sender, EventArgs e)
+        {
+            var nextPage = new FCList();
+            await Navigation.PushAsync(nextPage, true);
+        }
         
     }
 }

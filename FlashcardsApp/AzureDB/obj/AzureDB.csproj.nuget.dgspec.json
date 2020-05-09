@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {}
+    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {
+    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
+        "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
         "projectName": "AzureDB",
-        "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
-        "packagesPath": "C:\\Users\\Casey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\obj\\",
+        "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
+        "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Casey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\C-bre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
