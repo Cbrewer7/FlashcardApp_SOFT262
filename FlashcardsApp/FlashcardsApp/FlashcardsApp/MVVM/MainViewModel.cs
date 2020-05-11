@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FlashcardsApp.MVVM
 {
-    class MainViewModel
+    public class MainViewModel : ViewModelBase
     {
         public MainViewModel()
         {
@@ -14,10 +14,13 @@ namespace FlashcardsApp.MVVM
             CardInfos = data.GetCardInfos();
         }
 
+
+        //Refresh view of list when property change
+        private List<CardInfo> cardInfos;
         public List<CardInfo> CardInfos
         {
-            get;
-            set;
+            get { return cardInfos; }
+            set { SetProperty(ref  cardInfos, value); }
         }
     }
 }

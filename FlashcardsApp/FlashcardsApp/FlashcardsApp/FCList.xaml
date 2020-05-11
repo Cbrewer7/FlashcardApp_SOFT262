@@ -7,7 +7,8 @@
              x:Class="FlashcardsApp.FCList">
     <ContentPage.Content>
 
-        <ListView x:Name="fcListView">
+        <ListView ItemsSource="{Binding CardInfos}"
+                  HasUnevenRows="True">
 
             <ListView.ItemTemplate>
 
@@ -15,7 +16,13 @@
 
                     <ViewCell>
 
-                        <Label Text="{Binding .}"/>
+                        <StackLayout Orientation="Horizontal">
+
+                            <Label Text="{Binding Title}"/>
+
+                            <Label Text="{Binding Content}"/>
+
+                        </StackLayout>
 
                     </ViewCell>
                     

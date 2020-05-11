@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlashcardsApp.Models
 {
-    class CardInfo
+    public class CardInfo
     {
         public string Title
         {
