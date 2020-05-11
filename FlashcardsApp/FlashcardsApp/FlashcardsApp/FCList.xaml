@@ -6,10 +6,24 @@
              mc:Ignorable="d"
              x:Class="FlashcardsApp.FCList">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ListView x:Name="fcListView">
+
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+
+                    <ViewCell>
+
+                        <Label Text="{Binding .}"/>
+
+                    </ViewCell>
+                    
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
     </ContentPage.Content>
 </ContentPage>

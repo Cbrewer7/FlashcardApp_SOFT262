@@ -15,6 +15,12 @@ namespace FlashcardsApp
         public FCList()
         {
             InitializeComponent();
+
+            fcListView.ItemsSource = new List<string>()
+            {
+                "One", "Two", "Three", "Four", "Five"
+            };
+
         }
     }
 }
