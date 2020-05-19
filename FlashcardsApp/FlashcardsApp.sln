@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashcardsApp.iOS", "Flashc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlashcardsApp", "FlashcardsApp\FlashcardsApp\FlashcardsApp.csproj", "{A03880A9-65A7-4AEB-905E-CDDC4B7F467E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDB", "AzureDB\AzureDB.csproj", "{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,18 +73,6 @@ Global
 		{A03880A9-65A7-4AEB-905E-CDDC4B7F467E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A03880A9-65A7-4AEB-905E-CDDC4B7F467E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A03880A9-65A7-4AEB-905E-CDDC4B7F467E}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|iPhone.Build.0 = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{EDE4BC5E-0237-4FE3-A189-7BDFF6FBA75D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

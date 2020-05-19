@@ -58,3 +58,5 @@ C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\D
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\Debug\netcoreapp3.1\AzureDB.dll
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\Debug\netcoreapp3.1\AzureDB.pdb
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\Debug\netcoreapp3.1\AzureDB.genruntimeconfig.cache
+C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\Debug\netcoreapp3.1\AzureDB.genruntimeconfig.cache
+C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\AzureDB\obj\Debug\netcoreapp3.1\AzureDB.csproj.CoreCompileInputs.cache

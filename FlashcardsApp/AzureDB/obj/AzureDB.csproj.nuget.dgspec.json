@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {}
+    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {
+    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
+        "projectUniqueName": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
         "projectName": "AzureDB",
-        "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
-        "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\obj\\",
+        "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\AzureDB.csproj",
+        "packagesPath": "C:\\Users\\Casey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\AzureDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "F:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\C-bre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Casey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -45,6 +45,10 @@
             "Microsoft.Azure.Cosmos": {
               "target": "Package",
               "version": "[3.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -62,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

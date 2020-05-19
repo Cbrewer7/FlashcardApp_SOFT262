@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Microsoft.Azure.Cosmos;
+using Microsoft.Azure.Cosmos; 
+using 
 
 namespace AzureDB
 {
@@ -49,6 +50,9 @@ namespace AzureDB
             //Adds records (Need to link this to creating the flashcard in the app)
            
         }
+
+
+        async Task AddCardIfDoesNotExist()
 
     }
 }
