@@ -8,11 +8,11 @@ namespace FlashcardsApp.Classes
     public class FlashCard
     {
         
-        public double questionNumber { get; set; }
+        public double QuestionNumber { get; set; }
 
-        public string questionName { get; set; }
+        public string QuestionName { get; set; }
 
-        public string answer { get; set; }
+        public string Answer { get; set; }
 
             
 

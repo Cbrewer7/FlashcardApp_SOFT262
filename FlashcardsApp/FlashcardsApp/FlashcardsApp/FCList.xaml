@@ -8,7 +8,8 @@
     <ContentPage.Content>
 
         <ListView ItemsSource="{Binding CardInfos}"
-                  HasUnevenRows="True">
+                  HasUnevenRows="True"
+                  Header="This is the Header">
 
             <ListView.ItemTemplate>
 
@@ -17,6 +18,9 @@
                     <ViewCell>
 
                         <StackLayout Orientation="Horizontal">
+
+                            <Button x:Name="AddCardButton"
+                              Text="List of Flash Cards"/>
 
                             <Label Text="{Binding Title}"/>
 

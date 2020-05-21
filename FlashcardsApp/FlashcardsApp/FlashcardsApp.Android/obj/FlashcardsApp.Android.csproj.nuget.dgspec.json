@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj": {}
+    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj": {
+    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
         "projectName": "FlashcardsApp.Android",
-        "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
-        "packagesPath": "C:\\Users\\Casey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\obj\\",
+        "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
+        "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "F:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Casey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\C-bre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
-                "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
+              "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
+                "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
               }
             }
           }
@@ -44,7 +44,11 @@
           "dependencies": {
             "Microsoft.Azure.Cosmos": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.9.1, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.10.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -56,26 +60,26 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.6.0.726, )"
+              "version": "[4.6.0.800, )"
             }
           }
         }
       }
     },
-    "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
+    "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+        "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
         "projectName": "FlashcardsApp",
-        "projectPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
-        "packagesPath": "C:\\Users\\Casey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Casey\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\obj\\",
+        "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+        "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Casey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\C-bre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -102,7 +106,11 @@
           "dependencies": {
             "Microsoft.Azure.Cosmos": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.9.1, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.10.3, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -120,7 +128,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.6.0.726, )"
+              "version": "[4.6.0.800, )"
             }
           },
           "imports": [
@@ -133,7 +141,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

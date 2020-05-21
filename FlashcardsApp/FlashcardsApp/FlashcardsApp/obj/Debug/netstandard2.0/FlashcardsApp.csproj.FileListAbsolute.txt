@@ -5,10 +5,8 @@ C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.csprojAssemblyReference.cache
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.csproj.CoreCompileInputs.cache
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.AssemblyInfoInputs.cache
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.AssemblyInfo.cs
-C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.dll
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\ref\FlashcardsApp.dll
 C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.pdb
@@ -32,3 +30,6 @@ C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp
 C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FCList.xaml.g.cs
 C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.csproj.CoreCompileInputs.cache
 C:\Users\Casey\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\bin\Debug\netstandard2.0\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\FlashcardsApp.csproj.CoreCompileInputs.cache
+C:\Users\C-bre\Documents\GitHub\FlashcardApp_SOFT262\FlashcardsApp\FlashcardsApp\FlashcardsApp\obj\Debug\netstandard2.0\XamlC.stamp

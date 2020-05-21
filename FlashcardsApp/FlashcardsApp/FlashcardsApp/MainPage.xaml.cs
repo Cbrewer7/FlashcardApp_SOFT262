@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Microsoft.Azure.Cosmos;
+using AzureDB;
 
 
 namespace FlashcardsApp
@@ -20,7 +21,14 @@ namespace FlashcardsApp
             InitializeComponent();
 
             page1Button.Clicked += NextPageButton_Clicked;
+
+            
+             
         }
+
+
+
+
 
         private async void NextPageButton_Clicked(object sender, EventArgs e)
         {

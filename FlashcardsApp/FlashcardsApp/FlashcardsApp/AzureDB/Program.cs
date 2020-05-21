@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.Azure.Cosmos;
 using FlashcardsApp.MVVM;
 using FlashcardsApp.Classes;
+using Newtonsoft.Json;
+using FlashcardsApp.Models;
 
 namespace AzureDB
 {
@@ -23,17 +25,20 @@ namespace AzureDB
 
         private string databaseName = "flashCardsDB";
         private string containerId = "Items";
+        private static readonly string CollectionName = "student";
+
 
         public static async Task Main(string[] args)
         {
             var p = new Program();
             await p.Start();
+            
 
-        
+            
         }
         
 
-        public async Task Start()
+         async Task Start()
         {
             this.cosmosClient = new CosmosClient(endPointUri, PrimaryKey, new CosmosClientOptions()
             {
@@ -47,16 +52,34 @@ namespace AzureDB
 
             //Creates Container
             this.container = await this.database.CreateContainerIfNotExistsAsync(containerId, "/Topics", 400);
-
+            Console.WriteLine("Created Container: {0}\n", this.container.Id);
             //Adds records (Need to link this to creating the flashcard in the app)
+
+
+            await AddNewCardRecord(new CardInfo("Title", "What are the three main sciences taught in GCSE","12"));
            
         }
+     
 
-
-        async Task AddNewCardRecord(FlashCard f)
+        async Task AddNewCardRecord(CardInfo c)
         {
-            ItemResponse<FlashCard> flashCardResponse = await this.container.ReadItemAsync<f.questionNumber, new PartitionKey(f)
 
+            
+
+            try
+            {
+                ItemResponse<CardInfo> cardInfos = await this.container.ReadItemAsync<CardInfo>(c.Id, new PartitionKey(c.Title));  
+                Console.WriteLine("Item in database with id: {0) already exists\n", cardInfos.Resource.Id);
+            }
+
+            catch(CosmosException ex) when (ex.StatusCode == HttpStatusCode.NotFound)
+            {
+                ItemResponse<CardInfo> cardInfo = await this.container.CreateItemAsync<CardInfo>(c, new PartitionKey(c.Title));
+
+                Console.WriteLine("Created item in database with id: {0}.\n", cardInfo.Resource.Id, cardInfo.RequestCharge);
+
+
+            }
 
         }
 
