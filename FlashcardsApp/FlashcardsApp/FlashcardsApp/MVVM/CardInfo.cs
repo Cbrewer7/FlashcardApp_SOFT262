@@ -31,7 +31,7 @@ namespace FlashcardsApp.Models
         
         }
 
-        public CardInfo(string name, string Content, string Id) => (Title, Content, Id) = (name, Content, Id);
+        //public CardInfo(string name, string Content, string Id) => (Title, Content, Id) = (name, Content, Id);
    
     }
 }

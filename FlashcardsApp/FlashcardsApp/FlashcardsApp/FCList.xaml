@@ -7,34 +7,62 @@
              x:Class="FlashcardsApp.FCList">
     <ContentPage.Content>
 
-        <ListView ItemsSource="{Binding CardInfos}"
-                  HasUnevenRows="True"
-                  Header="This is the Header">
+        <Grid>
 
-            <ListView.ItemTemplate>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-                <DataTemplate>
+            <Button Text="Update"
+                    Grid.Row="0" Grid.Column="0"
+                    BackgroundColor="PowderBlue"/>
+            <Button Text="Add"
+                    Grid.Row="0" Grid.Column="1"
+                    BackgroundColor="Green"/>
+            <Button Text="Delete"
+                    Grid.Row="0" Grid.Column="2"
+                    BackgroundColor="CadetBlue"/>
+            <Label Text="Android FlashCards"
+                    HorizontalOptions="Center"
+                    FontSize="20"
+                    Grid.Row="1"
+                    Grid.ColumnSpan="3"/>
 
-                    <ViewCell>
+            <ListView ItemsSource="{Binding CardInfos}"
+                      HasUnevenRows="True"
+                      Grid.Row="2"
+                      Grid.ColumnSpan="3"
+                      x:Name="questionsList">
 
-                        <StackLayout Orientation="Horizontal">
+                <ListView.ItemTemplate>
 
-                            <Button x:Name="AddCardButton"
-                              Text="List of Flash Cards"/>
+                    <DataTemplate>
 
-                            <Label Text="{Binding Title}"/>
+                        <ViewCell>
 
-                            <Label Text="{Binding Content}"/>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+                                
+                                <Label Text="{Binding Title}"/>
+                                
+                            </Grid>
 
-                        </StackLayout>
-
-                    </ViewCell>
+                        </ViewCell>
+                        
+                    </DataTemplate>
                     
-                </DataTemplate>
-                
-            </ListView.ItemTemplate>
+                </ListView.ItemTemplate>
             
-        </ListView>
-
+            </ListView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

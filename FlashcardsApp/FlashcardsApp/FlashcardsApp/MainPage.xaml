@@ -10,8 +10,7 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -19,15 +18,16 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Text="Centre"
-               Grid.Row="1"
+        <Label Grid.Row="1"
                Grid.Column="0"
                Grid.ColumnSpan="2"
                BackgroundColor="CadetBlue"
         />
 
         <Button x:Name="page1Button"
-                Text="List of Flash Cards"
+                Text="Click This To Go To The Flash Cards"
+                Grid.Row="0" Grid.Column="0"
+                Grid.ColumnSpan="2"
         />
 
     </Grid>

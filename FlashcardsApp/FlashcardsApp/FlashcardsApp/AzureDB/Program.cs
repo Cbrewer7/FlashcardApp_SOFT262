@@ -56,7 +56,7 @@ namespace AzureDB
             //Adds records (Need to link this to creating the flashcard in the app)
 
 
-            await AddNewCardRecord(new CardInfo("Title", "What are the three main sciences taught in GCSE","12"));
+            //await AddNewCardRecord(new CardInfo("Title", "What are the three main sciences taught in GCSE","12"));
            
         }
      

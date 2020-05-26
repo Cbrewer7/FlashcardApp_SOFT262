@@ -6520,11 +6520,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
       "projectName": "FlashcardsApp.Android",
-      "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
+      "projectPath": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\FlashcardsApp.Android.csproj",
       "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6545,8 +6545,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
-              "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
+            "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj": {
+              "projectPath": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj"
             }
           }
         }

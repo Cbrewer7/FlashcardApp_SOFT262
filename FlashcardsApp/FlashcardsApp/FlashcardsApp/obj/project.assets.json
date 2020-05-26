@@ -6081,11 +6081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+      "projectUniqueName": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
       "projectName": "FlashcardsApp",
-      "projectPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+      "projectPath": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
       "packagesPath": "C:\\Users\\C-bre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\C-bre\\Documents\\GitHub\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\obj\\",
+      "outputPath": "C:\\Users\\C-bre\\Desktop\\FlashcardApp_SOFT262\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
